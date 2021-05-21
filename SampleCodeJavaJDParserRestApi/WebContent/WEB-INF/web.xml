@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Semantic Demo</display-name>
+   	
+	<!-- default page -->
+	<welcome-file-list>
+		<welcome-file>
+			JdParser.jsp
+		</welcome-file>
+  </welcome-file-list>
+  <env-entry>
+    <description>Rchilli JD Parser Service Url</description>
+    <env-entry-name>ServiceUrl</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>http://192.168.1.111/JDParserRest/RChilli/</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <description>Rchilli JD Parser User Key</description>
+    <env-entry-name>UserKey</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>0001111</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <description>Rchilli JD Parser Version</description>
+    <env-entry-name>Version</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>3.0</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <description>Rchilli JD Parser Sub User Id</description>
+    <env-entry-name>SubUserId</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>RchilliJDParser</env-entry-value>
+  </env-entry>
+</web-app>
